@@ -1,0 +1,23 @@
+{
+  "name": "docx-dynamic-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "docxtemplater": "^3.66.2",
+    "express": "^5.1.0",
+    "faker": "^6.6.6",
+    "multer": "^2.0.2",
+    "pizzip": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
